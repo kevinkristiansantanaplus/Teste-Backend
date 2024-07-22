@@ -29,7 +29,9 @@ class ViaCepController extends Controller
         {
 
             return response()->json([
-                'message' => $e->getMessage()
+
+                'message' => 'Houve um erro no servidor, favor contate o suporte'
+
             ]);
 
         }
